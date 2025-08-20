@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CI/CD Feedback Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Trigger Azure DevOps Pipeline</h1>
+  <input type="text" id="pipelineId" placeholder="Enter Pipeline ID">
+  <button onclick="triggerPipeline()">Trigger Pipeline</button>
+
+  <h2>Pipeline Status</h2>
+  <div id="status">Waiting for trigger...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
